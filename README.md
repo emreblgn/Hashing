@@ -13,6 +13,26 @@
  
  5. Program kapatılırken güncel hash tablosunun "hash.txt" isimli dosyaya kaydedilmesi.
  
+**Hash Tablosu Özellikleri**
+
+1. Hash tablosu open addressing yöntemiyle oluşturulmuştur.
+
+2. Çakışma problemlerini çözmek için double hashing yöntemi kullanılmıştır.
+
+3. Kullanılan hash fonksiyonları:
+
+    h(key,i) = [h1(key) + i*h2(key)] mod M
+
+    h1(key) = key mod M
+
+    h2(key) = 1 + (key mod (M - 1))
+    
+    M: Sözlük boyutu
+
+4. Hash tablosu case sensitive değildir. Örneğin "ARABA" ve "araba" aynı kelimedir.
+
+5. Kelimeler sayıya çevrilirken Horner metodu kullanılmıştır.
+ 
 **Örnek Girdi ve Çıktılar**
 
 1. [Ekteki](/inputs/input1.txt) txt dosyası girdi olarak alınır.

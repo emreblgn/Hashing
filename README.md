@@ -15,10 +15,18 @@
  
 **Örnek Girdi ve Çıktılar**
 
-1. [Ekteki](/inputs/input1.txt) txt dosyası girilir.
+1. [Ekteki](/inputs/input1.txt) txt dosyası girdi olarak alınır.
 
 ![](/images/output-1.png)
 
 2. Sözlükteki kelimeler ekrana yazdırılır.
 
 ![](/images/output-2.png)
+
+3. Girilen bir kelimenin sözlükte olup olmadığı sorgulanır ve program sözlük hash.txt dosyasına kaydedilerek kapatılır.
+
+![](/images/output-3.png)
+
+4. Program tekrar başlatılıp hash.txt dosyasındaki tabloyu yeni bir hash tablosuna alır sonra yeni bir sözlük dosyası eklenir ve iki sözlük dosyasındada olan bir kelimenin sorgusu gerçekleştirilir.
+
+![](/images/output-4.png)

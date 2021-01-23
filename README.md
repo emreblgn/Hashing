@@ -15,4 +15,10 @@
  
 **Örnek Girdi ve Çıktılar**
 
-1.
+1. [Ekteki](/inputs/input1.txt) txt dosyası girilir.
+
+![](/images/output-1.png)
+
+2. Sözlükteki kelimeler ekrana yazdırılır.
+
+![](/images/output-2.png)
